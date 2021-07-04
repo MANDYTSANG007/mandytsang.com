@@ -1,0 +1,2020 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	/*background-color: white;*/
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Projects Caption text */
+.project_text {
+  color: #f2f2f2;
+  font-size: 3vw;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*on smaller screens, decrease text size*/
+@media only screen and (max-width: 300px) {
+	.prev, .next, .text {font-size: 11px;}
+}
+
+li, a, button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #edf0f1;   	/* white */
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20%;
+	background-color: rgba(75, 38, 38, 0.5); /*#3A3B40;*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.content {
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.logo {
+	text-decoration:none;
+	list-style: none;
+}
+
+.nav_links {
+	list-style: none;
+	background-color: transparent;/*rgba(75, 38, 38, 0.8); #3A3B40;*/
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	transition: all 0.3s ease 0s;
+}
+
+body, html {
+height: 100%;
+margin:0;
+}
+
+.bgimg-1 {
+background-image: url("UtahHorseRiding.jpg");
+min-height: 100%;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.bgimg-2 {
+background-image: url("SedonaImg1.jpg");
+min-height: 100%;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.bgimg-3 {
+background-image: url("oregonIMG_1664.jpg");
+min-height: 100%;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.bgimg-4 {
+background-image: url("utahIMG_2988.jpg");
+min-height: 100%;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*  ---  Start Arizona travel modal --- */
+/* Style the Image Used to Trigger the Modal */
+#myImg1 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg1:hover {
+	opacity: 0.7;
+}
+
+#myImg2 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg2:hover {
+	opacity: 0.7;
+}
+
+#myImg3 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg3:hover {
+	opacity: 0.7;
+}
+
+#myImg4 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg4:hover {
+	opacity: 0.7;
+}
+
+
+#myImg5 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg5:hover {
+	opacity: 0.7;
+}
+
+
+#myImg6 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg6:hover {
+	opacity: 0.7;
+}
+
+#myImg7 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg7:hover {
+	opacity: 0.7;
+}
+
+#myImg8 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg8:hover {
+	opacity: 0.7;
+}
+
+#myImg9 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg9:hover {
+	opacity: 0.7;
+}
+
+#myImg10 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg10:hover {
+	opacity: 0.7;
+}
+
+#myImg11 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg11:hover {
+	opacity: 0.7;
+}
+
+#myImg12 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg12:hover {
+	opacity: 0.7;
+}
+
+#myImg13 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg13:hover {
+	opacity: 0.7;
+}
+#myImg14 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg14:hover {
+	opacity: 0.7;
+}
+#myImg15 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg15:hover {
+	opacity: 0.7;
+}
+#myImg16 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg16:hover {
+	opacity: 0.7;
+}
+#myImg17 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg17:hover {
+	opacity: 0.7;
+}
+
+#myImg18 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg18:hover {
+	opacity: 0.7;
+}
+#myImg19 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg19:hover {
+	opacity: 0.7;
+}
+#myImg20 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg20:hover {
+	opacity: 0.7;
+}
+#myImg21 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg21:hover {
+	opacity: 0.7;
+}
+#myImg22 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg22:hover {
+	opacity: 0.7;
+}
+#myImg23 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg23:hover {
+	opacity: 0.7;
+}
+#myImg24 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg24:hover {
+	opacity: 0.7;
+}
+#myImg25 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg25:hover {
+	opacity: 0.7;
+}
+
+#myImg26 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg26:hover {
+	opacity: 0.7;
+}
+
+#myImg27 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg27:hover {
+	opacity: 0.7;
+}
+#myImg28 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg28:hover {
+	opacity: 0.7;
+}
+#myImg29 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg29:hover {
+	opacity: 0.7;
+}
+#myImg30 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg30:hover {
+	opacity: 0.7;
+}
+#myImg31 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg31:hover {
+	opacity: 0.7;
+}
+#myImg32 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg32:hover {
+	opacity: 0.7;
+}
+#myImg33 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg33:hover {
+	opacity: 0.7;
+}
+#myImg34 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg34:hover {
+	opacity: 0.7;
+}
+#myImg35 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg35:hover {
+	opacity: 0.7;
+}
+#myImg36 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg36:hover {
+	opacity: 0.7;
+}
+#myImg37 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg37:hover {
+	opacity: 0.7;
+}
+#myImg38 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg38:hover {
+	opacity: 0.7;
+}
+#myImg39 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg39:hover {
+	opacity: 0.7;
+}
+#myImg40 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg40:hover {
+	opacity: 0.7;
+}
+#myImg41 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg41:hover {
+	opacity: 0.7;
+}
+#myImg42 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg42:hover {
+	opacity: 0.7;
+}
+#myImg43 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg43:hover {
+	opacity: 0.7;
+}
+#myImg44 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg44:hover {
+	opacity: 0.7;
+}
+#myImg45 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg45:hover {
+	opacity: 0.7;
+}
+#myImg46 {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+#myImg46:hover {
+	opacity: 0.7;
+}
+/* The Modal -- Background */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed;
+	z-index: 1; /* Stay on top of other layer */
+	padding-top: 100px;  /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /* enable scroll if needed */
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 90%;
+	max-height: 90%;
+}
+
+#ArizonaCaption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+/* Add animation -zoom in the Modal */
+.modal-content, #ArizonaCaption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	from {-webkit-transform: scale(0) }
+	to {-webkit-transform:scale(1) }
+}
+
+@keyframes zoom {
+	from {transform: scale(0) }
+	to {transform: scale(1) }
+}
+
+/* The close button */
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image width on smaller screens */
+@media only screen and (max-width: 700px) {
+	.modal-content {
+		width: 100%;
+	}
+}
+/* ---	End Arizona travel modal --- */
+
+
+.galleryArizonaContainer {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2rem;
+}
+.galleryOregonContainer {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2rem;
+}
+.galleryUtahContainer {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2rem;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 5vw);
+	grid-gap: 1rem;
+	border: 0 solid none;
+}
+
+.gallery-2 {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(18, 5vw);
+	grid-gap: 1rem;
+	border: 0 solid none;
+}
+
+.gallery-3 {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(19, 5vw);
+	grid-gap: 1rem;
+	border: 0 solid none;
+}
+
+.gallery-4 {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 5vw);
+	grid-gap: 1rem;
+	border: 1 solid red;
+}
+
+.gallery-5 {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(12, 5vw);
+	grid-gap: 1rem;
+	border: 1 solid red;
+}
+
+.gallery-6 {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(11, 5vw);
+	grid-gap: 1rem;
+	border: 1 solid red;
+}
+
+.gallery__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block; 
+	border: 0 solid none;
+	max-height:100%;
+	max-width: 100%;
+}
+
+.slideshow-container img{
+	max-width: 100%;
+	max-height:30%;
+	object-fit: contain;	
+}
+
+.gallery__item--1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.gallery__item img{
+	filter: blur(0px);
+	transition: filter 0.3s ease-in;
+	transform: scale(1);
+}
+
+.gallery__item--2 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+}
+.gallery__item--3 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+.gallery__item--4 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.gallery__item--5 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--6 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--7 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.gallery__item--8 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+}
+.gallery__item--9 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+.gallery__item--10 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.gallery__item--11 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--12 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+
+.gallery__item--13 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.gallery__item--14 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+}
+.gallery__item--15 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+.gallery__item--16 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.gallery__item--17 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--18 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--19 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.gallery__item--20 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+}
+.gallery__item--21 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+.gallery__item--22 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.gallery__item--23 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--24 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--25 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--26 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--27 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--28 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+
+.gallery__item--29 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+
+.gallery__item--30 {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 4;
+	grid-row-end: 7;
+}
+
+.gallery__item--31 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 7;
+}
+
+.gallery__item--32 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--33 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+.gallery__item--34 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+
+.gallery__item--35 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+
+.gallery__item--36 {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+
+.gallery__item--37 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+
+.gallery__item--38 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 11;
+	grid-row-end: 14;
+}
+
+.gallery__item--39 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 11;
+	grid-row-end: 14;
+}
+
+.gallery__item--40 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 11;
+	grid-row-end: 14;
+}
+
+.gallery__item--41 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 14;
+	grid-row-end: 16;
+}
+
+.gallery__item--42 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 14;
+	grid-row-end: 16;
+}
+
+.gallery__item--43 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 14;
+	grid-row-end: 16;
+}
+
+.gallery__item--44 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 16;
+	grid-row-end: 19;
+}
+
+.gallery__item--45 {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 16;
+	grid-row-end: 19;
+}
+
+.gallery__item--46 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 16;
+	grid-row-end: 19;
+}
+
+.gallery__item--47 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--48 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--49 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--50 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 8;
+}
+
+.gallery__item--51 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 7;
+}
+
+.gallery__item--52 {
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 7;
+}
+
+.gallery__item--53 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 8;
+	grid-row-end: 11;
+}
+
+.gallery__item--54 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 7;
+	grid-row-end: 11;
+}
+
+.gallery__item--55 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+.gallery__item--56 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+
+.gallery__item--57 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 11;
+	grid-row-end: 14;
+}
+
+.gallery__item--58 {
+	grid-column-start: 3;
+	grid-column-end: 7;
+	grid-row-start: 11;
+	grid-row-end: 14;
+}
+.gallery__item--59 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 11;
+	grid-row-end: 14;
+}
+
+.gallery__item--60 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 14;
+	grid-row-end: 17;
+}
+
+.gallery__item--61 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 14;
+	grid-row-end: 17;
+}
+
+.gallery__item--62 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 14;
+	grid-row-end: 17;
+}
+
+.gallery__item--63 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 17;
+	grid-row-end: 20;
+}
+
+.gallery__item--64 {
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 17;
+	grid-row-end: 20;
+}
+
+.gallery__item--65 {
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 17;
+	grid-row-end: 20;
+}
+
+.gallery__item--66 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--67 {
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--68 {
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--69 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+
+.gallery__item--70 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+
+.gallery__item--71 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 9;
+}
+
+.gallery__item--72 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--73 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+.gallery__item--74 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.gallery__item--75 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--76 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+.gallery__item--77 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+.gallery__item--78 {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 4;
+	grid-row-end: 7;
+}
+
+.gallery__item--79 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 7;
+}
+
+.gallery__item--80 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+.gallery__item--81 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+.gallery__item--82 {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+.gallery__item--83 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+.gallery__item--84 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 9;
+	grid-row-end: 12;
+}
+.gallery__item--85 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 12;
+}
+
+.gallery__item--86 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.gallery__item--87 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+}
+.gallery__item--88 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+.gallery__item--89 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+.gallery__item--90 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.gallery__item--91 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+
+.gallery__item--92 {
+	grid-column-start: 4;
+	grid-column-end: 9;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--93 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+.gallery__item--94 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--95 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+.gallery__item--96 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+
+.gallery__item--97 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+
+.gallery__item--98 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+
+.gallery__item--99 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--100 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--101 {
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+.gallery__item--102 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 8;
+}
+
+.gallery__item--103 {
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 8;
+}
+
+.gallery__item--104 {
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 8;
+}
+
+.gallery__item--105 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 8;
+	grid-row-end: 12;
+}
+
+.gallery__item--106 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 8;
+	grid-row-end: 10;
+}
+
+.gallery__item--107 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 8;
+	grid-row-end: 12;
+}
+
+.gallery__item--108 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 10;
+	grid-row-end: 12;
+}
+
+.gallery__item--109 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--110 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.gallery__item--111 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+.gallery__item--112 {
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--113 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 9;
+}
+
+.gallery__item--114 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 5;
+	grid-row-end: 7;
+}
+
+.gallery__item--115 {
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 7;
+}
+
+.gallery__item--116 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+.gallery__item--117 {
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+.gallery__item--118 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+.gallery__item--119 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.gallery__item--120 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+.gallery__item--121 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+
+.gallery__item--122 {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 5;
+	grid-row-end: 8;
+}
+
+.gallery__item--123 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 5;
+	grid-row-end: 8;
+}
+
+.gallery__item--124 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 6;
+	grid-row-end: 8;
+}
+
+.gallery__item--125 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 6;
+	grid-row-end: 8;
+}
+
+.gallery__item--126 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 8;
+	grid-row-end: 10;
+}
+
+.gallery__item--127 {
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 8;
+	grid-row-end: 12;
+}
+
+.gallery__item--128 {
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start: 8;
+	grid-row-end: 12;
+}
+
+.gallery__item--129 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 8;
+	grid-row-end: 12;
+}
+.gallery__item--130 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 10;
+	grid-row-end: 12;
+}
+
+img {
+max-width: 50%;
+max-height: 50%;
+object-fit: contain;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-shadow: 2px 2px black;
+}
+
+.caption span.homepage-title {
+background-color: transparent;
+color: #fff;
+padding: 18px;
+font-size: 68px;
+letter-spacing: 10px;
+}
+
+.caption span.travelpage-title {
+background-color: transparent;
+color: #fff;
+padding: 18px;
+font-size: 68px;
+letter-spacing: 10px;
+}
+
+h1.travelArizona {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	color: #111;
+	text-align: center;
+	padding: 80px 80px;
+	
+}
+
+h1.travelOregon {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	color: #111;
+	text-align: center;
+	padding: 80px 80px;
+	
+}
+
+h1.travelUtah {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	color: #111;
+	text-align: center;
+	padding: 80px 80px;
+	
+}
+
+h1.MTprojects {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	color: #111;
+	text-align: center;
+	padding: 80px 0px 20px 0px;
+}
+
+h1.MTphotos {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	color: #111;
+	text-align: center;
+	padding: 80px 80px;
+	
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+}
+
+h3.travelArizona {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h3.travelOregon{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h3.travelUtah{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h3.MTprojects {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+	text-align: center;
+	padding-top: 20px;
+}
+.footerLinks {
+	list-style: none;
+	align-item: center;	
+}
+
+.footerLinks li{
+	display: inline-block;
+	padding: 20px;
+}
+
+.footerLinks a{
+	color: rgba(213, 211, 209, 0.8);
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(75, 38, 38, 1);
+	color: rgba(213, 211, 209, 0.8);
+	text-align: center;
+	font-size: 0.8em;
+	padding-bottom: 20px;
+}
+
+hr.dividers {
+	border-top: 5px solid grey;
+}
+
+hr.travelDividers {
+	border-top: 5px dotted grey;
+	width: 10%;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	/*background-color: white;*/
+}
+
+li, a, button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #edf0f1;   	/* white */
+	text-decoration: none;
+	background-color: rgba(75, 38, 38, 1); /*#3A3B40*/
+
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20%;
+	background-color: rgba(75, 38, 38, 1); /*#3A3B40;*/
+}
+
+.logo {
+	text-decoration:none;
+	list-style: none;
+}
+
+.nav_links {
+	list-style: none;
+	background-color: rgba(75, 38, 38, 1); /*#3A3B40;*/
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	transition: all 0.3s ease 0s;
+}
+
+
+/*button {
+	padding: 9px 25px;
+	background-color: rgba(0, 136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: rgba(0,136,169,0.8);
+}*/
+
+.image_post{
+max-width: 100%;
+max-height: 100%;
+border-radius: 0px;
+box-shadow: none;
+margin: auto;
+object-fit: cover;
+object-position: center;
+-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-ms-transform: scale(1);
+-o-transform: scale(1);
+transform: scale(1);
+}
+
+.image_cover {
+	background-size: none;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: #f1f1f1;
+	padding: 0px;
+	max-width: 100%;	
+
+    border-radius: 0px;
+    box-shadow: none;
+}
+/* 
+.wprpsp-post-img-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.wprpsp-recent-post-slider.wprpsp-design-21 .wprpsp-post-image-wrap img {
+    background: #f1f1f1;
+    padding: 5px;
+    max-width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+
+*/
+
+.footerLinks {
+	list-style: none;
+	align-item: center;	
+}
+
+.footerLinks li{
+	display: inline-block;
+	padding: 20px;
+}
+
+.footerLinks a{
+	color: rgba(213, 211, 209, 0.8);
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(75, 38, 38, 1);
+	color: rgba(213, 211, 209, 0.8);
+	text-align: center;
+	font-size: 0.8em;
+	padding-bottom: 20px;
+}
+*/
+
+
+/* use position-webkit-sticky; position: sticky; to make navigation bar follows the mouse */
