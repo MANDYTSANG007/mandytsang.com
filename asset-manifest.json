@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1df38c80.css",
+    "main.js": "/static/js/main.22ad27d4.js",
+    "static/js/787.fec52a11.chunk.js": "/static/js/787.fec52a11.chunk.js",
+    "static/media/perfect-cup.png": "/static/media/perfect-cup.668baaabb6470d2f0abd.png",
+    "static/media/curiosity.jpeg": "/static/media/curiosity.e16a9b65a7003eae055b.jpeg",
+    "static/media/popular-bike-station-chicago.png": "/static/media/popular-bike-station-chicago.1ab49a86ddf7c3e7eaa0.png",
+    "static/media/megame.png": "/static/media/megame.508d3ed4fab63d709450.png",
+    "static/media/techTalk.png": "/static/media/techTalk.715479c32b68804bd8bc.png",
+    "static/media/onion-man.png": "/static/media/onion-man.0e7e4e3477d819e55e08.png",
+    "static/media/e-commerce.png": "/static/media/e-commerce.a6e421e4dadd2ef1c3ce.png",
+    "static/media/x-white.png": "/static/media/x-white.68259569f321d0ddef01.png",
+    "static/media/work-day-scheduler.png": "/static/media/work-day-scheduler.bb9205c63bad49e7ae8d.png",
+    "static/media/menu-white.png": "/static/media/menu-white.1e4dd8f99b56f3f35427.png",
+    "static/media/x.png": "/static/media/x.c1a4405f266c9f1ec8ae.png",
+    "static/media/menu.png": "/static/media/menu.aec0a2b46a82f5b64c49.png",
+    "index.html": "/index.html",
+    "main.1df38c80.css.map": "/static/css/main.1df38c80.css.map",
+    "main.22ad27d4.js.map": "/static/js/main.22ad27d4.js.map",
+    "787.fec52a11.chunk.js.map": "/static/js/787.fec52a11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1df38c80.css",
+    "static/js/main.22ad27d4.js"
+  ]
+}
