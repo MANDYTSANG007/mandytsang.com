@@ -72,7 +72,6 @@
     .footer-list {
         display: flex;
         flex-wrap: wrap;
-        /* row-gap: 5px; */
     }
     .footer-copyright {
         flex: 1 1 150px;
