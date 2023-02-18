@@ -1,0 +1,171 @@
+.home-main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+.home-background {
+    background-color: #fff;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.background-img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.home-heading1 {
+    font-family: "Libre Baskerville";
+    font-size: 5vw;
+    color: #fff;
+    top: 16%;
+    transform: translate(-50% -50%);
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
+.home-heading2 {
+    font-size: 2vw;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 26%;
+    width: 100%;
+    display: block;
+}
+
+.social-icons {
+    top: 32%;
+    position: absolute;
+    width: 100%;
+}
+
+.icons  {
+    color: #fff;
+    padding: 1% 1%;
+    -webkit-transition: color 0.7s;
+    -moz-transition:    color 0.7s;
+    -ms-transition:     color 0.7s;
+    -o-transition:      color 0.7s;
+    transition:         color 0.7s;
+}
+
+.icons:hover {
+    color: #FFD700;
+}
+
+.about {
+    color: black;
+}
+
+.about-container {
+    margin: 5%;
+    border: 2px solid rgb(195, 193, 193);
+    border-radius: 20px;
+}
+
+.about-title {
+    margin-top: 2%;
+}
+
+.intro-info {
+    text-align: left;
+    padding: 2vw 20vw;
+    color: #616888;
+    font-weight: normal;
+}
+
+.skills {
+    color: black;
+}
+
+.skills-container {
+    margin: 5%;
+    border: 2px solid rgb(195, 193, 193);
+    border-radius: 20px;
+}
+
+.skills-title {
+    margin-top: 2%;
+}
+
+.skills-info {
+    padding: 2vw 20vw;
+    color: #616888;
+}
+
+
+
+/* For mobile phone */
+@media only screen and (max-width: 600px) {
+
+    .home-heading1 {
+        font-size: 7vh;
+    }   
+
+    .home-heading2 {
+        font-size: 2.5vh;
+    }
+}
+
+/* For iPhone X, Xs, XR, and 11 */
+@media only screen 
+    and (min-width: 414px) 
+    and (min-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+        .home-heading1 {
+            font-size: 5vh;
+            top: 10%;
+        }
+        .home-heading2 {
+            font-size: 2vh;
+            top: 16%;
+        }
+        .social-icons {
+            top: 20%;
+        }
+    }
+
+/* For iPhone 12 and 13 */
+@media only screen 
+    and (min-width: 375px) 
+    and (min-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .home-heading1 {
+            font-size: 5vh;
+        }
+    }
+
+/* For Galaxy Fold   */
+@media(max-width: 320px){ 
+    .home-heading1 {
+        font-size: 5vh;
+    }
+}
+/* For iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .home-heading1 {
+        font-size: 8vh;
+    }
+
+    .home-heading2 {
+        font-size: 3vh;
+        top: 20%;
+    }
+    
+    .social-icons {
+        top: 25%;
+    }
+
+    .icons {
+        font-size: 2em;
+    }
+}
