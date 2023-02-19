@@ -2,13 +2,18 @@ import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 
+
 const Contact = () => {
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
         alert(`Thank you for your message.`)
-        emailjs.sendForm("process.env.REACT_APP_SERVICE_ID","process.env.REACT_APP_TEMPLATE_ID", form.current,"process.env.REACT_APP_P_KEY")
+        emailjs.sendForm(`${process.env.REACT_APP_SERVICE_ID}`,`${process.env.REACT_APP_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_P_KEY}`)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            })
         e.target.reset();
     }
 
