@@ -18,7 +18,7 @@ export const projectData = [
         id: 2,
         title: "MeGame",
         description: "An interactive memory game in React. A fun and engaging way to test and improve your memory skills. This game involves a series of visual cues that you need to remember in order to gain points.",
-        repoURL: "https://github.com/MANDYTSANG007/onion-man",
+        repoURL: "https://github.com/MANDYTSANG007/megame",
         imagePath: img2,
         tools: ["React", "Node.js", "Bootstrap" ],
     },
