@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 
-const Card = ({ id, title, description, repoURL, image, tools }) => {
+const Card = ({ id, title, description, repoURL, demoURL, image, tools }) => {
     const [show, setShow] = useState(false);
 
     return (
@@ -16,6 +16,7 @@ const Card = ({ id, title, description, repoURL, image, tools }) => {
                 title={title}
                 description={description}
                 repoURL={repoURL}
+                demoURL={demoURL}
                 tools={tools}
                 onClose={() => setShow(false)}
                 show={show} 
