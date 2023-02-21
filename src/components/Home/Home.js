@@ -24,7 +24,7 @@ const Home = () => {
     return (
         <main className="home-main">
             <div className="home-background">
-                <img src={require("../../assets/curiosity.jpeg")} alt="" className="background-img" />
+                <img src={require("../../assets/curiosity.jpeg")} alt="Photograph that captures a deer looking out over the ocean horizon. " className="background-img" />
                 <h1 className="home-heading1"> Mandy Tsang </h1>
                 <h3 className="home-heading2">
                     <span> Full Stack Developer </span>

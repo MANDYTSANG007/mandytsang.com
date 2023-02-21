@@ -17,7 +17,7 @@ const Navbar = () => {
             />
             <img
                 src={require(`../../assets/${navbar ? "x-white" : "menu-white"}.png`)}
-                alt=""
+                alt="menu icon"
                 className="menu-icon"
                 onClick={() => {
                     setNavbar(!navbar);
