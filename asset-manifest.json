@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a960dbb3.css",
-    "main.js": "/static/js/main.809efd80.js",
+    "main.js": "/static/js/main.43cb0fff.js",
     "static/js/787.fec52a11.chunk.js": "/static/js/787.fec52a11.chunk.js",
     "static/media/perfect-cup.png": "/static/media/perfect-cup.668baaabb6470d2f0abd.png",
     "static/media/curiosity.jpeg": "/static/media/curiosity.e16a9b65a7003eae055b.jpeg",
@@ -10,18 +10,20 @@
     "static/media/techTalk.png": "/static/media/techTalk.715479c32b68804bd8bc.png",
     "static/media/onion-man.png": "/static/media/onion-man.0e7e4e3477d819e55e08.png",
     "static/media/e-commerce.png": "/static/media/e-commerce.a6e421e4dadd2ef1c3ce.png",
+    "static/media/cms-overview.png": "/static/media/cms-overview.7ef89a7611c0336cfca3.png",
     "static/media/x-white.png": "/static/media/x-white.68259569f321d0ddef01.png",
     "static/media/work-day-scheduler.png": "/static/media/work-day-scheduler.bb9205c63bad49e7ae8d.png",
     "static/media/menu-white.png": "/static/media/menu-white.1e4dd8f99b56f3f35427.png",
     "static/media/x.png": "/static/media/x.c1a4405f266c9f1ec8ae.png",
     "static/media/menu.png": "/static/media/menu.aec0a2b46a82f5b64c49.png",
+    "static/media/cms-eer-diagram.png": "/static/media/cms-eer-diagram.9061a906a4e0bdcf66ad.png",
     "index.html": "/index.html",
     "main.a960dbb3.css.map": "/static/css/main.a960dbb3.css.map",
-    "main.809efd80.js.map": "/static/js/main.809efd80.js.map",
+    "main.43cb0fff.js.map": "/static/js/main.43cb0fff.js.map",
     "787.fec52a11.chunk.js.map": "/static/js/787.fec52a11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a960dbb3.css",
-    "static/js/main.809efd80.js"
+    "static/js/main.43cb0fff.js"
   ]
 }
