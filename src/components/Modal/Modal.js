@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 
 
-const Modal = ({ id, image, title, description, repoURL, demoURL, tools, onClose, show }) => {
+const Modal = ({ image, title, description, repoURL, demoURL, tools, onClose, show }) => {
 
     return (
         <div className={`modal ${show ? "show" : ""}`} onClick={onClose}>
