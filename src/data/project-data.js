@@ -1,9 +1,8 @@
-// import imgCMS from "../assets/project-images/cms-eer-diagram.png";
 import imgCMS from "../assets/project-images/cms-overview.png";
-import imgOnionMan from "../assets/project-images/onion-man.png";
+// import imgOnionMan from "../assets/project-images/onion-man.png";
 import imgMegame from "../assets/project-images/megame.png";
 import imgPerfectCup from "../assets/project-images/perfect-cup.png";
-// import img4 from "../assets/project-images/techTalk.png";
+import imgTechTalk from "../assets/project-images/techTalk.png";
 import imgWorkDayScheduler from "../assets/project-images/work-day-scheduler.png";
 import imgCyclisticCaseStudy from "../assets/project-images/popular-bike-station-chicago.png";
 
@@ -16,14 +15,14 @@ export const projectData = [
         imagePath: imgCMS,
         tools: ["Node.js", "MySQL", "MySQLWorkbench", "Inquirer", "Concole-Table", "DotEnv" ],
     },
-    {
-        id: 2,
-        title: "Onion Man",
-        description: "A MERN stack app where users share their simple onion recipes. It is connected to the MongoDB Atlas cloud database and is equipped with Google Identity Services for user's authentication.",
-        repoURL: "https://github.com/MANDYTSANG007/onion-man",
-        imagePath: imgOnionMan,
-        tools: ["MongoDB Atlas", "Node.js", "React", "Mui", "Netlify", "Google Identity Service" ],
-    },
+    // {
+    //     id: 2,
+    //     title: "Onion Man",
+    //     description: "A MERN stack app where users share their simple onion recipes. It is connected to the MongoDB Atlas cloud database and is equipped with Google Identity Services for user's authentication.",
+    //     repoURL: "https://github.com/MANDYTSANG007/onion-man",
+    //     imagePath: imgOnionMan,
+    //     tools: ["MongoDB Atlas", "Node.js", "React", "Mui", "Netlify", "Google Identity Service" ],
+    // },
     {
         id: 3,
         title: "MeGame",
@@ -41,14 +40,14 @@ export const projectData = [
         imagePath: imgPerfectCup,
         tools: ["Express", "MySQL", "Sequelize" ],
     },
-    // {
-    //     id: 5,
-    //     title: "TechTalk - A Developer Tech Blog",
-    //     description: "TechTalk is built using Model-View-Controller(MVC), a software architectual framework, and an Object-relational mapping(ORM) programming technique. Developers can publish their blog posts in this platform.",
-    //     repoURL: "https://github.com/MANDYTSANG007/Developers-Tech-Blog",
-    //     imagePath: img4,
-    //     tools: ["Express", "Handlebars", "Heroku", "Sequelize" ],
-    // },
+    {
+        id: 5,
+        title: "TechTalk - A Developer Tech Blog",
+        description: "TechTalk is built using Model-View-Controller(MVC), a software architectual framework, and an Object-relational mapping(ORM) programming technique. Developers can publish their blog posts in this platform.",
+        repoURL: "https://github.com/MANDYTSANG007/Developers-Tech-Blog",
+        imagePath: imgTechTalk,
+        tools: ["Express", "Handlebars", "Heroku", "Sequelize" ],
+    },
     {
         id: 6,
         title: "Work-Day-Scheduler",
