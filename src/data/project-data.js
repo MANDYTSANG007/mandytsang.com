@@ -1,11 +1,12 @@
 import imgCMS from "../assets/project-images/cms-overview.png";
 // import imgOnionMan from "../assets/project-images/onion-man.png";
-import imgMegame from "../assets/project-images/megame.png";
+// import imgMegame from "../assets/project-images/megame.png";
+// import imgTechTalk from "../assets/project-images/techTalk.png";
 import imgPerfectCup from "../assets/project-images/perfect-cup.png";
-import imgTechTalk from "../assets/project-images/techTalk.png";
 import imgWorkDayScheduler from "../assets/project-images/work-day-scheduler.png";
 import imgCyclisticCaseStudy from "../assets/project-images/popular-bike-station-chicago.png";
-import imgWeatherDashboard from "../assets/project-images/weather-dashboard.png"
+import imgWeatherDashboard from "../assets/project-images/weather-dashboard.png";
+import imgSeaTurtle from "../assets/project-images/sea-turtle.png";
 
 export const projectData = [
     {
@@ -24,15 +25,15 @@ export const projectData = [
     //     imagePath: imgOnionMan,
     //     tools: ["MongoDB Atlas", "Node.js", "React", "Mui", "Netlify", "Google Identity Service" ],
     // },
-    {
-        id: 3,
-        title: "MeGame",
-        description: "An interactive memory game in React. A fun and engaging way to test and improve your memory skills. This game involves a series of visual cues that you need to remember in order to gain points.",
-        repoURL: "https://github.com/MANDYTSANG007/megame",
-        demoURL: "https://mandytsang007.github.io/megame/",
-        imagePath: imgMegame,
-        tools: ["React", "Node.js", "Bootstrap"],
-    },
+    // {
+    //     id: 3,
+    //     title: "MeGame",
+    //     description: "An interactive memory game in React. A fun and engaging way to test and improve your memory skills. This game involves a series of visual cues that you need to remember in order to gain points.",
+    //     repoURL: "https://github.com/MANDYTSANG007/megame",
+    //     demoURL: "https://mandytsang007.github.io/megame/",
+    //     imagePath: imgMegame,
+    //     tools: ["React", "Node.js", "Bootstrap"],
+    // },
     {
         id: 4,
         title: "Perfect Cup - A Coffee App.",
@@ -74,6 +75,15 @@ export const projectData = [
         demoURL: "https://mandytsang007.github.io/Weather-Dashboard/",
         imagePath: imgWeatherDashboard,
         tools: ["JavaScript", "Moment.js", "Bootstrap", "jQuery"],
+    },
+    {
+        id: 9,
+        title: "Sea Turtle",
+        description: "Sea Turtle is a React app that features a modern and responsive user interface, with a clean and intuitive design that is easy to navigate. The app utilizes user input validation, error handling, and real-time updates based on user actions.",
+        repoURL: "https://github.com/MANDYTSANG007/react-sea-turtle",
+        demoURL: "https://mandytsang007.github.io/react-sea-turtle/",
+        imagePath: imgSeaTurtle,
+        tools: ["JavaScript", "React", "Google Maps Embed API"],
     },
 ]
 
