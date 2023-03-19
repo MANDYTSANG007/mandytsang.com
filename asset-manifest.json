@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a960dbb3.css",
-    "main.js": "/static/js/main.f5acb6b7.js",
+    "main.js": "/static/js/main.4f6acb69.js",
     "static/js/787.fec52a11.chunk.js": "/static/js/787.fec52a11.chunk.js",
     "static/media/perfect-cup.png": "/static/media/perfect-cup.668baaabb6470d2f0abd.png",
     "static/media/curiosity.jpeg": "/static/media/curiosity.e16a9b65a7003eae055b.jpeg",
@@ -10,6 +10,7 @@
     "static/media/megame.png": "/static/media/megame.508d3ed4fab63d709450.png",
     "static/media/techTalk.png": "/static/media/techTalk.715479c32b68804bd8bc.png",
     "static/media/onion-man.png": "/static/media/onion-man.0e7e4e3477d819e55e08.png",
+    "static/media/sea-turtle.png": "/static/media/sea-turtle.a3f7507bad07b555bc2d.png",
     "static/media/e-commerce.png": "/static/media/e-commerce.a6e421e4dadd2ef1c3ce.png",
     "static/media/cms-overview.png": "/static/media/cms-overview.7ef89a7611c0336cfca3.png",
     "static/media/x-white.png": "/static/media/x-white.68259569f321d0ddef01.png",
@@ -20,11 +21,11 @@
     "static/media/cms-eer-diagram.png": "/static/media/cms-eer-diagram.9061a906a4e0bdcf66ad.png",
     "index.html": "/index.html",
     "main.a960dbb3.css.map": "/static/css/main.a960dbb3.css.map",
-    "main.f5acb6b7.js.map": "/static/js/main.f5acb6b7.js.map",
+    "main.4f6acb69.js.map": "/static/js/main.4f6acb69.js.map",
     "787.fec52a11.chunk.js.map": "/static/js/787.fec52a11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a960dbb3.css",
-    "static/js/main.f5acb6b7.js"
+    "static/js/main.4f6acb69.js"
   ]
 }
