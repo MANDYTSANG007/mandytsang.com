@@ -22,9 +22,9 @@ function App() {
           {/* <Route path="/turtle" element={<TurtleSightingApp />} />
           <Route path="/drone" element={<DroneDeliveryApp />} />
           <Route path="/sales" element={<SalesManagementApp />} /> */}
-          <Route path="/turtle-sighting-app" element={<TurtleSightingApp />} />
-          <Route path="/drone-delivery-app" element={<DroneDeliveryApp />} />
-          <Route path="/sales-management-app" element={<SalesManagementApp />} />
+          <Route path="/portfolio/turtle-sighting-app" element={<TurtleSightingApp />} />
+          <Route path="/portfolio/drone-delivery-app" element={<DroneDeliveryApp />} />
+          <Route path="/portfolio/sales-management-app" element={<SalesManagementApp />} />
         </Routes>
         <Footer />
       </Router>
