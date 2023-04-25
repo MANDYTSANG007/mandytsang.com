@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Modal.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
@@ -42,7 +43,8 @@ const Modal = ({ image, title, description, repoURL, demoURL, caseStudyURL, myRo
                 <div className="modal-footer">
                     {repoURL ? <a href={repoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Details </a> : ""}
                     {demoURL ? <a href={demoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Demo </a> : ""}
-                    {caseStudyURL ? <a href={caseStudyURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Read Case Study </a> : ""}
+                    {/* {caseStudyURL ? <a href={caseStudyURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Read Case Study </a> : ""} */}
+                    {caseStudyURL ? <Link to={caseStudyURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Read Case Study </Link> : ""}
                     <button onClick={onClose} className="modal-button"> Close </button>
                 </div>
             </div>
