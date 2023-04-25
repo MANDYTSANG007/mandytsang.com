@@ -1,56 +1,35 @@
-.home-main {
-    margin: auto;
+.brand {
     display: flex;
-    justify-content: center;
-    overflow-x: hidden;
+    flex-direction: column;
     align-items: center;
-}
-
-.home-background {
-    background-color: #fff;
-    background-size: cover;
-    width: 100%;
-    background-position: center;
+    justify-content: center;
     text-align: center;
-    position: relative;
+    height: 80vh;
 }
 
-.background-img {
-    object-fit: cover;
-    height: 100vh;
-    width: 100%;
-}
-
-.home-heading1 {
+.name {
     font-family: "Libre Baskerville";
     font-size: 5vw;
-    color: #fff;
-    top: 16%;
-    transform: translate(-50% -50%);
-    position: absolute;
-    width: 100%;
-    display: block;
+    color: black;
 }
 
-.home-heading2 {
+.title {
     font-size: 2vw;
-    color: #fff;
-    position: absolute;
-    transform: translate(-50% -50%);
-    top: 26%;
-    width: 100%;
-    display: block;
+    color: black;
+    margin-top: 2rem;
 }
 
+/* Icons section */
 .social-icons {
-    top: 32%;
-    position: absolute;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
 }
 
 .icons  {
-    color: #fff;
-    padding: 1% 1%;
+    color: black;
+    margin: 0 20px;
     -webkit-transition: color 0.7s;
     -moz-transition:    color 0.7s;
     -ms-transition:     color 0.7s;
@@ -62,27 +41,37 @@
     color: #FFD700;
 }
 
-.about {
-    color: black;
-}
+/* Skill section 2 */
+.skill-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+    max-width: fit-content;
+    /* max-width: 800px; */
+  }
+  
+  .skill-category {
+    font-weight: bold;
+    /* text-align: center; */
+  }
+  
+  .skill-list {
+    /* list-style: none; */
+    list-style:disc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skill-item {
+    margin-bottom: 10px;
+  }
 
-.about-container {
-    margin: 5%;
-    border: 2px solid rgb(195, 193, 193);
-    border-radius: 20px;
-}
 
-.about-title {
-    margin-top: 2%;
-}
 
-.intro-info {
-    text-align: left;
-    padding: 2vw 20vw;
-    color: #616888;
-    font-weight: normal;
-}
 
+
+/* Skill Section */
 .skills {
     color: black;
 }

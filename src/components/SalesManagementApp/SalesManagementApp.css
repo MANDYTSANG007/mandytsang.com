@@ -1,0 +1,118 @@
+.case-study-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.case-study-image {
+    width: 30%;
+    max-width: 800px;
+    height: auto;
+}
+
+.project-header {
+    width: 100%;
+    text-align: left;
+    max-width: 50em;
+    margin-top: 3em;
+}
+
+.project-title {
+    padding: 10px 0px;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    /* font-weight: 400; */
+    margin-bottom: 0.5rem;
+}
+
+.section h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.project-detail-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  
+.project-detail-info > div {
+    margin-right: 2rem;
+}
+  
+.project-detail-timeline, .project-detail-my-role, .project-detail-platform {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+  
+.project-detail-timeline h5, .project-detail-my-role h5, .project-detail-platform h5 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+  
+.project-detail-timeline p, .project-detail-my-role p, .project-detail-platform p {
+    font-size: 1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: left;
+}
+
+.design-process-image {
+    width: 80%;
+}
+
+.user-journey-image {
+    width: 60%;
+}
+
+.paper-wireframes {
+    width: 80%;
+}
+
+.crm-digital-wireframes1 {
+    width: 50%;
+}
+
+.crm-digital-wireframes2 {
+    width: 40%;
+}
+
+.low-fidelity-prototype {
+    width: 50%;
+}
+
+.crm-design-system {
+    width: 60%;
+}
+
+.crm-mockup {
+    width: 60%;
+}
+
+.crm-high-fidelity {
+    width: 60%;
+}
+
+.next-steps{
+    width: 60%;
+}

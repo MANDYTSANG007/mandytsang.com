@@ -5,9 +5,10 @@
     background-color: #edefee;
 }
 
-.title {
-    color: black;
-    margin-bottom: 5vh;
+.portfolio-description {
+    display: flex;
+    font-weight: 300;
+    margin: 3% 30%;
 }
 
 .content {
@@ -18,37 +19,38 @@
     row-gap: 8vh;
 }
 
-/* For extra small devices ( 600px or smaller )*/
+/* For screens smaller than 600px */
 @media only screen and (max-width: 600px) {
     .portfolio {
         width: 100%;
     }
+
+    .portfolio-description {
+        max-width: 600px;
+        font-size: 1rem;
+        margin: 5% 10%;
+        text-align: left;
+    }
 }
 
-/* For iPhone X, Xs, XR, and 11 */
-@media only screen 
-    and (min-width: 414px) 
-    and (min-height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) { 
-        .portfolio {
-            width: 100%;
-            text-align: center;
-        }
-
-        .content {
-            width: 100%;
-            justify-content: center;
-            display: block;
-        }
+/* For screens between 600px and 1024px */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .portfolio {
+        width: 100%;
+        text-align: center;
     }
 
-/* For iPhone 12 and 13 */
-@media only screen 
-    and (min-width: 375px) 
-    and (min-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3) {
-        .content {
-            width: 100%;
-            display: block;
-        }
+    .portfolio-description {
+        max-width: 600px;
+        font-size: 1rem;
+        margin: 3% 20%;
+        text-align: left;
     }
+}
+
+/* For screens larger than 1024px */
+@media only screen and (min-width: 1024px) {
+    .content {
+        width: 100%;
+    }
+}

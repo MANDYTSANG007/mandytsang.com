@@ -1,0 +1,63 @@
+.about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+}
+  
+.about-me h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+  
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .about-me {
+      max-width: 400px;
+    }
+    
+    .about-me h1 {
+      font-size: 2rem;
+    }
+  
+    .about-me p {
+      font-size: 1rem;
+    }
+}
+
+/* For screens between 600px and 1024px */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .about-me {
+        max-width: 600px;
+    }
+    
+    .about-me h1 {
+        font-size: 2.5rem;
+    }
+  
+    .about-me p {
+        font-size: 1.1rem;
+    }
+}
+
+/* For screens larger than 1024px */
+@media only screen and (min-width: 1024px) {
+    .about-me {
+        max-width: 800px;
+        margin: 100px auto;
+        padding: 30px;
+    }
+    
+    .about-me h1 {
+        font-size: 3rem;
+    }
+  
+    .about-me p {
+        font-size: 1.2rem;
+    }
+}

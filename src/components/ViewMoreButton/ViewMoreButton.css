@@ -1,0 +1,32 @@
+/* .view-more-button {
+    padding: 10px 20px;
+    background-color: #b82cb8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.view-more-button:hover {
+    background-color: #67439C;
+} */
+
+.view-more-button {
+    background: #b82cb8;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    border: transparent;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.view-more-button:hover {
+    background-color: #FFD700;
+    color: black;
+}

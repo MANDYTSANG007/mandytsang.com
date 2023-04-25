@@ -60,7 +60,6 @@
     letter-spacing: 2px;
     font-size: 0.8rem;
     border: none;
-    /* margin-left: 5%; */
     cursor: pointer;
     font-family: "noto sans";
     text-transform: uppercase;
@@ -69,27 +68,57 @@
 
 .modal-title {
     margin: 0;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .modal-body {
     padding: 10px;
     text-align: left;
+}
+
+.modal-roles-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 5px 0;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 11px;
+    color: #000000;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
 
-.modal-tools-container {
+.modal-roles-container > p {
+    margin-right: 5px;
+}
+
+.gear-icon {
+    margin-right: 5px;
+}
+
+.modal-tool-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 10;
     align-items: center;
     letter-spacing: 1px;
     font-size: 11px;
     color: #808080;
 }
 
-.modal-tools{
+.modal-tool-container > p {
+    margin-right: 5px;
+}
+
+.modal-my-roles {
+    padding: 1%;
+}
+
+.modal-tool{
     padding: 1%;
 }
 

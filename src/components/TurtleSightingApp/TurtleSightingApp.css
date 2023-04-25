@@ -1,0 +1,125 @@
+.case-study-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.turtle-case-study {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.project-header {
+    width: 100%;
+    text-align: left;
+    max-width: 50em;
+    margin-top: 5em;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.project-title {
+    padding: 10px 0px;
+}
+
+.project-detail-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+  }
+  
+.project-detail-info > div {
+    margin-right: 3rem;
+}
+  
+.project-detail-timeline, .project-detail-my-role, .project-detail-platform {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+  
+.project-detail-timeline h5, .project-detail-my-role h5, .project-detail-platform h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+  
+.project-detail-timeline p, .project-detail-my-role p, .project-detail-platform p {
+    font-size: 1rem;
+}
+
+.user-journey-image {
+    width: 80%;
+}
+
+.paper-wireframes {
+    width: 80%;
+}
+
+.digital-wireframes {
+    width: 80%;
+}
+
+.low-fidelity-prototype {
+    width: 80%;
+}
+
+.usability-study-parameters {
+    width: 50%;
+    margin-bottom: 5rem;
+}
+
+.usability-study-findings {
+    width: 50%;
+}
+
+.mockup-process-indicator {
+    width: 30%;
+}
+
+.mockup-confirmation {
+    width: 30%;
+}
+
+.design-system {
+    width: 80%;
+}
+
+.hi-fi {
+    width: 80%;
+}
+
+.hi-fi-prototype {
+    width: 80%;
+}
+
+.sitemap {
+    width: 80%;
+}
+
+.responsive-designs {
+    width: 80%;
+}
+

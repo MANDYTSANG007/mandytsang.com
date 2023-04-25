@@ -1,0 +1,130 @@
+.case-study-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.drone-case-study {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.project-header {
+    width: 100%;
+    text-align: left;
+    max-width: 50em;
+    margin-top: 5em;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.project-title {
+    padding: 10px 0px;
+}
+
+.project-detail-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  
+.project-detail-info > div {
+    margin-right: 2rem;
+}
+  
+.project-detail-timeline, .project-detail-my-role, .project-detail-platform {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+  
+.project-detail-timeline h5, .project-detail-my-role h5, .project-detail-platform h5 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+  
+.project-detail-timeline p, .project-detail-my-role p, .project-detail-platform p {
+    font-size: 1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: left;
+}
+
+.design-process-image {
+    width: 100%;
+}
+
+.user-journey-image {
+    width: 70%;
+}
+
+.drone-sitemap {
+    width: 60%;
+}
+
+.drone-paper-wireframes {
+    width: 60%;
+}
+
+.digital-wireframe-design {
+    width: 40%;
+}
+
+.wireframe-screen-size-variation {
+    width: 20%;
+}
+
+.drone-low-fidelity-prototype {
+    width: 100%;
+}
+
+.drone-usability-parameters {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.drone-usability-findings {
+    width: 50%;
+}
+
+.drone-mockup {
+    width: 80%;
+}
+
+.design-system {
+    width: 80%;
+}
+
+.hi-fi {
+    width: 80%;
+}
+
+.next-steps{
+    width: 60%;
+}

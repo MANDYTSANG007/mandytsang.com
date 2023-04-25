@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 
 
-const Modal = ({ image, title, description, repoURL, demoURL, tools, onClose, show }) => {
+const Modal = ({ image, title, description, repoURL, demoURL, caseStudyURL, myRoles, tool, techStack, onClose, show }) => {
 
     return (
         <div className={`modal ${show ? "show" : ""}`} onClick={onClose}>
@@ -15,16 +15,34 @@ const Modal = ({ image, title, description, repoURL, demoURL, tools, onClose, sh
                 </div>
                 <div className="modal-body">
                     {description}
-                    <div className="modal-tools-container">
-                        <FontAwesomeIcon className="gear-icon" icon={faGear} size="1x" />
-                        {tools.map((tool) => (
-                            <p key={tool} className="modal-tools">{tool}</p>
+                    <div className="modal-roles-container">
+                        <p>Roles: </p>
+                        {myRoles.map((role, index) => (
+                            <span key={role}>
+                                {role}
+                                {index !== myRoles.length - 1 ? ",\u00A0 " : ""}
+                            </span>
                         ))}
                     </div>
+                    <div className="modal-tool-container">
+                        <FontAwesomeIcon className="gear-icon" icon={faGear} size="1x" />
+                        <p> {tool ? "Tool: " : "Tech Stack: "} </p>
+                        {tool ? (
+                            tool.map((tool) => (
+                                <p key={tool} className="modal-tools">{tool}</p>
+                            ))
+                        ) : (
+                            techStack.map((tech) => (
+                                <p key={tech} className="modal-tool">{tech}</p>
+                            ))
+                        )}
+                    </div>
                 </div>
+
                 <div className="modal-footer">
-                    <a href={repoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Details </a>
+                    {repoURL ? <a href={repoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Details </a> : ""}
                     {demoURL ? <a href={demoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Demo </a> : ""}
+                    {caseStudyURL ? <a href={caseStudyURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Read Case Study </a> : ""}
                     <button onClick={onClose} className="modal-button"> Close </button>
                 </div>
             </div>

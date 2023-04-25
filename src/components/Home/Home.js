@@ -1,8 +1,11 @@
-import React from "react";
+import React from 'react';
 import "./Home.css";
+import Portfolio from "../Portfolio/Portfolio";
+import Chart from "../Chart/Chart";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 const socials = [
     {
@@ -19,17 +22,17 @@ const socials = [
     }
 ]
 
-
 const Home = () => {
     return (
-        <main className="home-main">
-            <div className="home-background">
-                <img src={require("../../assets/curiosity.jpeg")} alt="Photograph that captures a deer looking out over the ocean horizon. " className="background-img" />
-                <h1 className="home-heading1"> Mandy Tsang </h1>
-                <h3 className="home-heading2">
+        <main>
+            <div className="brand">
+                <h1 className="name"> Mandy Tsang </h1>
+                <h3 className="title">
+                    <span > UX Designer </span>
+                    <span>  |  </span>
                     <span> Full Stack Developer </span>
                     <span>  |  </span>
-                    <span> Data Analyst </span>
+                    <span className="dot-separator"> Researcher </span>
                 </h3>
                 <div className="social-icons">
                     {socials.map((item) => (
@@ -38,32 +41,11 @@ const Home = () => {
                         </a>
                     ))}
                 </div>
-                <section className="about">
-                    <article className="about-container">
-                        <h1 className="about-title"> About </h1>
-                        <div className="intro-info">
-                            <p>I am a full stack developer and a data analyst who love learning new technologies to stay up to date in the rapidly evolving field of software engineering.</p>
-                            <br/>
-                            <p>What fascinated me about the field is that I can apply my creativity, analytical skills and hands-on project management skills in developing practical solutions that 
-                                deliver value to the society. 
-                            </p>
-                            <br/>
-                            <p>In addition to my technical skills, I enjoy working with people to understand their needs and find innovative solutions that make the world a better place.</p>
-                        </div>
-                    </article>
-                </section>
-                <section className="skills">
-                    <article className="skills-container">
-                        <h1 className="skills-title"> Skills </h1>
-                        <div className="skills-info">
-                            <p>Here are some highlights of my technical skills:</p>
-                            <br/>
-                            <p> React, JavaScript, R, Python, SQL, Node, Express, MongoDB, Jest, Bootstrap.</p>
-                        </div>
-
-                    </article>
-                </section>
             </div>
+            <Portfolio showFeatured={true} showButton={true} />
+            <LazyLoadComponent>
+                <Chart />
+            </LazyLoadComponent>
         </main>
     )
 }
