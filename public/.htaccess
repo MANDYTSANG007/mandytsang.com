@@ -2,12 +2,12 @@
     RewriteEngine On
     RewriteBase /
     RewriteRule ^index\.html$ - [L]
-    RewriteRule ^portfolio(.*)$ /portfolio.html [L,NC]
-    RewriteRule ^about(.*)$ /about.html [L,NC]
-    RewriteRule ^contact(.*)$ /contact.html [L,NC]
-    RewriteRule ^turtle-sighting-app(.*)$ /turtle-sighting-app.html [L,NC]
-    RewriteRule ^drone-delivery-app(.*)$ /drone-delivery-app.html [L,NC]
-    RewriteRule ^sales-management-app(.*)$ /sales-management-app.html [L,NC]
+    RewriteRule ^portfolio(.*)$ /portfolio [L,NC]
+    RewriteRule ^about(.*)$ /about [L,NC]
+    RewriteRule ^contact(.*)$ /contact [L,NC]
+    RewriteRule ^turtle-sighting-app(.*)$ /turtle-sighting-app [L,NC]
+    RewriteRule ^drone-delivery-app(.*)$ /drone-delivery-app [L,NC]
+    RewriteRule ^sales-management-app(.*)$ /sales-management-app [L,NC]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . /index.html [L]
