@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\.html$ - [L]
+    RewriteRule ^portfolio/(.*)$ /index.html - [L]
+    RewriteRule ^about/(.*)$ /index.html - [L]
+    RewriteRule ^contact/(.*)$ /index.html - [L]
+    RewriteRule ^turtle-sighting-app/(.*)$ /index.html - [L]
+    RewriteRule ^drone-delivery-app/(.*)$ /index.html - [L]
+    RewriteRule ^sales-management-app/(.*)$ /index.html - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>
