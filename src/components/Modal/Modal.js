@@ -4,8 +4,7 @@ import "./Modal.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 
-
-const Modal = ({ image, title, description, repoURL, demoURL, caseStudyURL, myRoles, tool, techStack, onClose, show }) => {
+const Modal = ({ id, type, image, title, description, repoURL, demoURL, caseStudyContent, myRoles, tool, techStack, onClose, show }) => {
 
     return (
         <div className={`modal ${show ? "show" : ""}`} onClick={onClose}>
@@ -43,7 +42,7 @@ const Modal = ({ image, title, description, repoURL, demoURL, caseStudyURL, myRo
                 <div className="modal-footer">
                     {repoURL ? <a href={repoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Details </a> : ""}
                     {demoURL ? <a href={demoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Demo </a> : ""}
-                    {caseStudyURL ? <Link to={caseStudyURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Read Case Study </Link> : ""}
+                    {type === "case-study" && caseStudyContent ? <Link to={`/case-study/${id}`} target="_blank" rel="noopener noreferrer" className="modal-link"> Read Case Study </Link> : ""}
                     <button onClick={onClose} className="modal-button"> Close </button>
                 </div>
             </div>

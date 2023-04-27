@@ -6,9 +6,8 @@ import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
-import TurtleSightingApp from './components/TurtleSightingApp/TurtleSightingApp';
-import DroneDeliveryApp from './components/DroneDeliveryApp/DroneDeliveryApp';
-import SalesManagementApp from './components/SalesManagementApp/SalesManagementApp';
+import CaseStudy from './components/CaseStudy/CaseStudy';
+import { projectData } from './data/project-data';
 
 function App() {
   return (
@@ -19,9 +18,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/turtle-sighting-app" element={<TurtleSightingApp />} />
-          <Route path="/drone-delivery-app" element={<DroneDeliveryApp />} />
-          <Route path="/sales-management-app" element={<SalesManagementApp />} />
+          <Route path="/case-study/:id" element={<CaseStudy projectData={projectData} />} />
         </Routes>
         <Footer />
       </Router>

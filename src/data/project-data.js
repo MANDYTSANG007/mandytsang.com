@@ -10,13 +10,17 @@ import imgSeaTurtle from "../assets/project-images/sea-turtle.png";
 import imgTurtleSightingApp from "../assets/project-images/report-turtle-sighting-app.png";
 import imgDroneDeliveryApp from "../assets/project-images/drone-delivery-app1.png";
 import imgSalesManagementApp from "../assets/project-images/sales-management-app.png";
+import TurtleSightingApp from "../components/TurtleSightingApp/TurtleSightingApp";
+import DroneDeliveryApp from "../components/DroneDeliveryApp/DroneDeliveryApp";
+import SalesManagementApp from "../components/SalesManagementApp/SalesManagementApp";
 
 export const projectData = [
     {
         id: 1,
+        type: "case-study",
         title: "Report Turtle Sighting App",
         description: "This UX project aims to make it easier for the public to report turtle sightings, ultimately promoting turtle conservation efforts.",
-        caseStudyURL: "https://mandytsang.com/turtle-sighting-app",
+        caseStudyContent: <TurtleSightingApp />,
         imagePath: imgTurtleSightingApp,
         myRoles: ["User research", "User personas", "IA", "Wireframing", "Prototyping", "Visual Design", "Usability testing"], 
         featured: true,
@@ -25,9 +29,10 @@ export const projectData = [
     },
     {
         id: 2,
+        type: "case-study",
         title: "Drone Delivery App",
         description: "This app streamlines the drone delivery process by empowering customers to easily reschedule their deliveries, ensuring customers have full control over their deliveries.",
-        caseStudyURL: "https://mandytsang.com/drone-delivery-app",
+        caseStudyContent: <DroneDeliveryApp />,
         imagePath: imgDroneDeliveryApp,
         myRoles: ["User research", "User personas", "IA", "Wireframing", "Prototyping", "Visual Design", "Usability testing"], 
         featured: true,
@@ -36,9 +41,10 @@ export const projectData = [
     },
     {
         id: 3,
+        type: "case-study",
         title: "Sales Management App",
         description: "This sales management app will replace manual systems and incorporate inventory management, sales data analysis and providing a comprehensive view of both online and retail store data.",
-        caseStudyURL: "https://mandytsang.com/sales-management-app",
+        caseStudyContent: <SalesManagementApp />,
         imagePath: imgSalesManagementApp,
         myRoles: ["User research", "User personas", "IA", "Wireframing", "Prototyping", "Visual Design", "Usability testing"], 
         featured: true,
@@ -47,6 +53,7 @@ export const projectData = [
     },
     {
         id: 4,
+        type: "project",
         title: "Content-Management-System(CMS)",
         description: "CMS is a command-line application that allows the user to add, delete, and update employee records.",
         repoURL: "https://github.com/MANDYTSANG007/content-management-system",
@@ -58,6 +65,7 @@ export const projectData = [
     },
     {
         id: 5,
+        type: "project",
         title: "Onion Man",
         description: "A MERN stack app where users share their simple onion recipes. It is connected to the MongoDB Atlas cloud database and is equipped with Google Identity Services for user's authentication.",
         repoURL: "https://github.com/MANDYTSANG007/onion-man",
@@ -69,6 +77,7 @@ export const projectData = [
     },
     {
         id: 6,
+        type: "project",
         title: "MeGame",
         description: "An interactive memory game in React. A fun and engaging way to test and improve your memory skills. This game involves a series of visual cues that you need to remember in order to gain points.",
         repoURL: "https://github.com/MANDYTSANG007/megame",
@@ -81,6 +90,7 @@ export const projectData = [
     },
     {
         id: 7,
+        type: "project",
         title: "Perfect Cup - A Coffee App.",
         description: "A full-stack, SQL-backed coffee shop application gives users a comprehensive view of our commitment to ingredient transparency.",
         repoURL: "https://github.com/MChambersIV/Perfect-Cup",
@@ -92,6 +102,7 @@ export const projectData = [
     },
     {
         id: 8,
+        type: "project",
         title: "TechTalk - A Developer Tech Blog",
         description: "TechTalk is built using Model-View-Controller(MVC), a software architectual framework, and an Object-relational mapping(ORM) programming technique. Developers can publish their blog posts in this platform.",
         repoURL: "https://github.com/MANDYTSANG007/Developers-Tech-Blog",
@@ -103,6 +114,7 @@ export const projectData = [
     },
     {
         id: 9,
+        type: "project",
         title: "Work-Day-Scheduler",
         description: "A single-day scheduling application that helps users organize their busy schedules better.",
         repoURL: "https://github.com/MANDYTSANG007/Work-Day-Scheduler",
@@ -115,6 +127,7 @@ export const projectData = [
     },
     {
         id: 10,
+        type: "project",
         title: "Cyclistic Case Study",
         description: "A big data analytics case study for Cyclistic, a bike share company in Chicago. By analyzing vast amounts of data generated by their bike sharing program, it helps gain valuable insights into user behavior and usage patterns.",
         repoURL: "https://github.com/MANDYTSANG007/cyclistic_case_study",
@@ -126,6 +139,7 @@ export const projectData = [
     },
     {
         id: 11,
+        type: "project",
         title: "Weather Dashboard",
         description: "A weather dashboard application that is designed to provide you with up-to-date weather information in a visually appealing and user-friendly format. The dashboard provides real-time updates on temperature, humidity, wind speed, and precipitation, along with detailed hourly and daily forecasts from the OpenWeatherMap API.",
         repoURL: "https://github.com/MANDYTSANG007/Weather-Dashboard",
@@ -138,6 +152,7 @@ export const projectData = [
     },
     {
         id: 12,
+        type: "project",
         title: "Sea Turtle",
         description: "Sea Turtle is a React app that features a modern and responsive user interface, with a clean and intuitive design that is easy to navigate. The app utilizes user input validation, error handling, and real-time updates based on user actions.",
         repoURL: "https://github.com/MANDYTSANG007/react-sea-turtle",

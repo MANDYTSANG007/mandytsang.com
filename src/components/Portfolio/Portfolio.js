@@ -28,11 +28,13 @@ const Portfolio = ({ showFeatured, showButton }) => {
                     <Card
                         key={projectData.id}
                         id={projectData.id}
+                        type={projectData.type}
                         title={projectData.title}
                         description={projectData.description}
                         repoURL={projectData.repoURL}
                         demoURL={projectData.demoURL}
-                        caseStudyURL={projectData.caseStudyURL}
+                        // caseStudyURL={projectData.caseStudyURL}
+                        caseStudyURL={projectData.caseStudyContent}
                         image={projectData.imagePath}
                         myRoles={projectData.myRoles}
                         tool={projectData.tool}
