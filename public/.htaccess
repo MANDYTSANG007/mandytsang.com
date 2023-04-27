@@ -2,19 +2,15 @@
     RewriteEngine On
     RewriteBase /
     RewriteRule ^index\.html$ - [L]
-    RewriteRule ^portfolio(.*)$ /index.html [L,NC]
-    RewriteRule ^about(.*)$ /index.html [L,NC]
-    RewriteRule ^contact(.*)$ /index.html [L,NC]
-    RewriteRule ^turtle-sighting-app(.*)$ /index.html [L,NC]
-    RewriteRule ^drone-delivery-app(.*)$ /index.html [L,NC]
-    RewriteRule ^sales-management-app(.*)$ /index.html [L,NC]
+    RewriteRule ^portfolio(.*)$ /portfolio.html [L,NC]
+    RewriteRule ^about(.*)$ /about.html [L,NC]
+    RewriteRule ^contact(.*)$ /contact.html [L,NC]
+    RewriteRule ^turtle-sighting-app(.*)$ /turtle-sighting-app.html [L,NC]
+    RewriteRule ^drone-delivery-app(.*)$ /drone-delivery-app.html [L,NC]
+    RewriteRule ^sales-management-app(.*)$ /sales-management-app.html [L,NC]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . /index.html [L]
-  
-    # Testing text 
-    Testing out if this text will be displayed
-  
     ErrorDocument 404 /not-found.html
 </IfModule>
 
