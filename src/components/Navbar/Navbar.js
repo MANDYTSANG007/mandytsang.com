@@ -16,7 +16,8 @@ const Navbar = () => {
                 }}
             />
             <img
-                src={require(`../../assets/2023-MT-Logo.png`)}
+                // src={require(`../../assets/2023-MT-Logo.png`)}
+                src={require(`../../assets/mt.png`)}
                 alt="Mandy logo"
                 className="mandy"
                 onClick={() => {

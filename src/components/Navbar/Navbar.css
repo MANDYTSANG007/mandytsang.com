@@ -60,6 +60,11 @@
     height: 4vh;
 }
 
+.navbar .mandy{
+    max-width: 150px;
+    width: 100%;
+}
+
 .navbar .mandy:hover {
     cursor: pointer;
 }
