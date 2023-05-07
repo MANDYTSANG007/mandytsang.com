@@ -7,7 +7,7 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/sales-management-app-overview.png`)}
                 alt="A Macbook and a iPhone display the drone delivery app"
-                className="case-study-image"
+                className="case-study-image "
             />
             <div className="project-header">
                 <div className="section">
@@ -54,7 +54,7 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/design-process.png`)}
                 alt="design-process"
-                className="design-process-image"
+                className="design-process-image responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -88,12 +88,12 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/crm-user-journey-map1.png`)}
                 alt="Carlos's user journey map"
-                className="user-journey-image"
+                className="user-journey-image responsive-width"
             />
             <img
                 src={require(`../../assets/project-images/crm-user-journey-map2.png`)}
                 alt="Carlos's user journey map"
-                className="user-journey-image"
+                className="user-journey-image responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -104,7 +104,7 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/crm-paper-wireframes.png`)}
                 alt="Paper wireframes"
-                className="paper-wireframes"
+                className="paper-wireframes responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -131,7 +131,7 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/crm-low-fidelity-prototype.png`)}
                 alt="Low-fidelity prototype"
-                className="low-fidelity-prototype"
+                className="low-fidelity-prototype responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -142,7 +142,7 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/crm-usability-findings.png`)}
                 alt="Usability study findings"
-                className="usability-study-findings"
+                className="usability-study-findings responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -152,7 +152,7 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/crm-design-system.png`)}
                 alt="Design system"
-                className="crm-design-system"
+                className="crm-design-system responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -162,17 +162,17 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/crm-mockup1.png`)}
                 alt="Mockup"
-                className="crm-mockup"
+                className="crm-mockup responsive-width"
             />
             <img
                 src={require(`../../assets/project-images/crm-mockup2.png`)}
                 alt="Mockup"
-                className="crm-mockup"
+                className="crm-mockup responsive-width"
             />
             <img
                 src={require(`../../assets/project-images/crm-mockup3.png`)}
                 alt="Mockup"
-                className="crm-mockup"
+                className="crm-mockup responsive-width "
             />
             <div className="project-header">
                 <div className="section">
@@ -183,7 +183,7 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/crm-high-fidelity.png`)}
                 alt="High-fidelity Prototype"
-                className="crm-high-fidelity"
+                className="crm-high-fidelity responsive-width "
             />
             <div className="project-header">
                 <div className="section">
@@ -201,10 +201,9 @@ const SalesManagementApp = () => {
             <img
                 src={require(`../../assets/project-images/crm-next-steps.png`)}
                 alt="Next steps"
-                className="next-steps"
+                className="next-steps responsive-width "
             />
         </div>
-
     )
 }
 

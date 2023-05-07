@@ -70,6 +70,10 @@
     font-size: 1rem;
 }
 
+.design-process-image {
+    width: 100%;
+}
+
 .user-journey-image {
     width: 80%;
 }
@@ -107,11 +111,7 @@
     width: 80%;
 }
 
-.hi-fi {
-    width: 80%;
-}
-
-.hi-fi-prototype {
+.turtle-hi-fi {
     width: 80%;
 }
 
@@ -123,3 +123,21 @@
     width: 80%;
 }
 
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    .responsive-width {
+        width: 100% !important;
+    }
+
+    .usability-study-parameters {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* For tablets and smaller laptops with screens between 600px and 1024px */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .responsive-width {
+        width: 100% !important;
+    }
+}

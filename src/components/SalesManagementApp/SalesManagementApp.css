@@ -101,6 +101,10 @@
     width: 50%;
 }
 
+.usability-study-findings {
+    width: 50%;
+}
+
 .crm-design-system {
     width: 60%;
 }
@@ -115,4 +119,53 @@
 
 .next-steps{
     width: 60%;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    .case-study-image {
+        width: 100% !important;
+        max-width: 200px;
+    }
+
+    .responsive-width {
+        width: 100% !important;
+    }
+
+    .crm-digital-wireframes1 {
+        width: 100% !important;
+        max-width: 300px;
+    }
+
+    .crm-digital-wireframes2 {
+        width: 100% !important;
+        max-width: 250px;
+    }
+
+    .usability-study-parameters {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* For tablets and smaller laptops with screens between 600px and 1024px */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .responsive-width {
+        width: 100% !important;
+    }
+
+    .case-study-image {
+        width: 100% !important;
+        max-width: 400px;
+    }
+
+    .crm-digital-wireframes1 {
+        width: 100% !important;
+        max-width: 600px;
+    }
+
+    .crm-digital-wireframes2 {
+        width: 100% !important;
+        max-width: 500px;
+    }
 }

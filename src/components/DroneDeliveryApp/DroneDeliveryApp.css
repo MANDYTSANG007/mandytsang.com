@@ -148,7 +148,7 @@
 
 /* For tablets and smaller laptops with screens between 600px and 1024px */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
-    .design-process-image {
-        width: 120%;
+    .responsive-width {
+        width: 100% !important;
     }
 }

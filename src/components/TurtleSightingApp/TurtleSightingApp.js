@@ -54,8 +54,8 @@ const TurtleSightingApp = () => {
             </div>
             <img
                 src={require(`../../assets/project-images/design-process.png`)}
-                alt="Sonia's user journey map"
-                className="user-journey-image"
+                alt="Design process flow"
+                className="design-process-image responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -81,7 +81,7 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/user-journey.png`)}
                 alt="Sonia's user journey map"
-                className="user-journey-image"
+                className="user-journey-image responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -91,7 +91,7 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/paper-wireframes.png`)}
                 alt="Paper wireframes"
-                className="paper-wireframes"
+                className="paper-wireframes responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -106,12 +106,12 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/digital-wireframes.png`)}
                 alt="Digital wireframes"
-                className="digital-wireframes"
+                className="digital-wireframes responsive-width"
             />
             <img
                 src={require(`../../assets/project-images/low-fi-prototype.png`)}
                 alt="Low-fidelity prototype"
-                className="digital-wireframes"
+                className="digital-wireframes responsive-width"
 
             />
             <div className="project-header">
@@ -122,12 +122,12 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/parameters.png`)}
                 alt="Usability study parameters"
-                className="usability-study-parameters"
+                className="usability-study-parameters responsive-width"
             />
             <img
                 src={require(`../../assets/project-images/findings.png`)}
                 alt="Usability study findings"
-                className="usability-study-findings"
+                className="usability-study-findings responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -140,12 +140,12 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/mockup-process-indicator.png`)}
                 alt="Mockup on process indicator"
-                className="mockup-process-indicator"
+                className="mockup-process-indicator responsive-width"
             />
             <img
                 src={require(`../../assets/project-images/mockup-confirmation.png`)}
                 alt="Mockup on confirmation page"
-                className="mockup-confirmation"
+                className="mockup-confirmation responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -155,7 +155,7 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/turtle-design-system.png`)}
                 alt="Design System"
-                className="design-system"
+                className="design-system responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -166,12 +166,12 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/hi-fi.png`)}
                 alt="High-fidelity prototype"
-                className="hi-fi"
+                className="turtle-hi-fi responsive-width"
             />
             <img
                 src={require(`../../assets/project-images/hi-fi-prototype2.png`)}
                 alt="High-fidelity prototype with flow"
-                className="hi-fi-prototype"
+                className="turtle-hi-fi responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -182,7 +182,7 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/sitemap.png`)}
                 alt="Sitemap"
-                className="sitemap"
+                className="sitemap responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -193,7 +193,7 @@ const TurtleSightingApp = () => {
             <img
                 src={require(`../../assets/project-images/responsive-designs.png`)}
                 alt="The designs for screen size variation included mobile, tablet, and desktop."
-                className="responsive-designs"
+                className="responsive-designs responsive-width"
             />
             <div className="project-header">
                 <div className="section">
