@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <div className="about-me">
             <h1>Hello, I'm Mandy</h1>
-            <p> Greetings and welcome to my profolio page! I'm a full-stack developer and a UX designer who designed and coded this site using React. I bring a unique perspective of technical and creative skills to my work. But my interests don't stop there - you can often find me tinkering with DIY projects or brewing up a mean cup of coffee.</p>
+            <p> Greetings and welcome to my profolio page! I'm a full-stack developer and a UX designer who designed and coded this site using a popular web development library called React. I bring a unique perspective of technical and creative skills to my work. But my interests don't stop there - you can often find me tinkering with DIY projects or brewing up a mean cup of coffee.</p>
             <br />
             <p>With my diverse skill set and never-ending curiosity, I love tacking challenging projects and bringing them to life. I'm a firm believer in the power of perfect balance between form and function, and strive to achieve it in my works.</p>
             <br />  

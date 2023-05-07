@@ -1,5 +1,5 @@
 import imgCMS from "../assets/project-images/cms-overview.png";
-import imgOnionMan from "../assets/project-images/onion-man.png";
+import imgTravellers from "../assets/project-images/travellers-laptop.png";
 import imgMegame from "../assets/project-images/megame.png";
 import imgTechTalk from "../assets/project-images/techTalk.png";
 import imgPerfectCup from "../assets/project-images/perfect-cup.png";
@@ -66,14 +66,14 @@ export const projectData = [
     {
         id: 5,
         type: "project",
-        title: "Onion Man",
-        description: "A MERN stack app where users share their simple onion recipes. It is connected to the MongoDB Atlas cloud database and is equipped with Google Identity Services for user's authentication.",
-        repoURL: "https://github.com/MANDYTSANG007/onion-man",
-        imagePath: imgOnionMan,
-        myRoles: ["Back-end development", "Front-end development", "Database", "Deployment"],
-        featured: false,
-        hidden: true,
-        techStack: ["MongoDB Atlas", "Node.js", "React", "Mui", "Netlify", "Google Identity Service" ],
+        title: "Travellers",
+        description: "A MERN stack app that is designed to provide travelers with a platform to share their travel experiences. Users can sign up and log in. They can create and publish posts about their trips and like on other users' posts, and edit or delete their own posts. It is connected to the MongoDB Atlas cloud database and is equipped with Google OAuth Identity Services for user's authentication.",
+        repoURL: "https://github.com/MANDYTSANG007/travellers",
+        imagePath: imgTravellers,
+        myRoles: ["Back-end development", "Front-end development", "Database", "Models Design"],
+        featured: true,
+        hidden: false,
+        techStack: ["MongoDB Atlas", "Node.js", "React", "Mui", "Google OAuth" ],
     },
     {
         id: 6,
@@ -122,7 +122,7 @@ export const projectData = [
         imagePath: imgWorkDayScheduler,
         myRoles: ["APIs", "UX/UI", "Back-end development", "Debugging", "Updates", "Deployment"],
         featured: false,
-        hidden: false,
+        hidden: true,
         techStack: ["Bootstrap", "jQuery", "Moment.js"],
     },
     {
