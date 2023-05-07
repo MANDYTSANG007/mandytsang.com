@@ -59,7 +59,7 @@ export const projectData = [
         repoURL: "https://github.com/MANDYTSANG007/content-management-system",
         imagePath: imgCMS,
         myRoles: ["Back-end development", "Database" ],
-        featured: true,
+        featured: false,
         hidden: false,
         techStack: ["Node.js", "MySQL", "MySQLWorkbench", "Inquirer", "Concole-Table", "DotEnv"],
     },
