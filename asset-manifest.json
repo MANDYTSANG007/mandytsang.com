@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.34a54674.css",
-    "main.js": "/static/js/main.f1d54c9f.js",
+    "main.js": "/static/js/main.b5be4317.js",
     "static/js/787.fec52a11.chunk.js": "/static/js/787.fec52a11.chunk.js",
     "static/media/responsive-designs.png": "/static/media/responsive-designs.86b58a44513ba442ebaf.png",
     "static/media/drone-delivery-app.png": "/static/media/drone-delivery-app.da96e355848a23c3eaa3.png",
     "static/media/report-turtle-sighting-app.png": "/static/media/report-turtle-sighting-app.32188491171c5bfc91c8.png",
+    "static/media/travellers-laptop.png": "/static/media/travellers-laptop.ceafbc768c75616b6b3c.png",
     "static/media/drone-delivery-app1.png": "/static/media/drone-delivery-app1.37c1a6e0bfed97b7b72e.png",
     "static/media/perfect-cup.png": "/static/media/perfect-cup.668baaabb6470d2f0abd.png",
     "static/media/wireframe-screen-size-variation.png": "/static/media/wireframe-screen-size-variation.56bbcce43c1cb9199e60.png",
@@ -42,6 +43,7 @@
     "static/media/crm-usability-findings.png": "/static/media/crm-usability-findings.58c8797a48c36ceaf63b.png",
     "static/media/crm-next-steps.png": "/static/media/crm-next-steps.279cb8c16be8b14642a4.png",
     "static/media/findings.png": "/static/media/findings.0c89eed229d2b37268fa.png",
+    "static/media/travellers-landing-page.png": "/static/media/travellers-landing-page.6f473c95907f7ecebb37.png",
     "static/media/drone-sitemap.png": "/static/media/drone-sitemap.4970db24b6a33e6125cc.png",
     "static/media/drone-next-steps.png": "/static/media/drone-next-steps.cbe8e695822c1dafd2a5.png",
     "static/media/drone-paper-wireframes.png": "/static/media/drone-paper-wireframes.1aa3368978bf58855c97.png",
@@ -72,11 +74,11 @@
     "static/media/cms-eer-diagram.png": "/static/media/cms-eer-diagram.9061a906a4e0bdcf66ad.png",
     "index.html": "/index.html",
     "main.34a54674.css.map": "/static/css/main.34a54674.css.map",
-    "main.f1d54c9f.js.map": "/static/js/main.f1d54c9f.js.map",
+    "main.b5be4317.js.map": "/static/js/main.b5be4317.js.map",
     "787.fec52a11.chunk.js.map": "/static/js/787.fec52a11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34a54674.css",
-    "static/js/main.f1d54c9f.js"
+    "static/js/main.b5be4317.js"
   ]
 }
