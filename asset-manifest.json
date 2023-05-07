@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.34a54674.css",
-    "main.js": "/static/js/main.b5be4317.js",
+    "main.js": "/static/js/main.d00b661f.js",
     "static/js/787.fec52a11.chunk.js": "/static/js/787.fec52a11.chunk.js",
     "static/media/responsive-designs.png": "/static/media/responsive-designs.86b58a44513ba442ebaf.png",
     "static/media/drone-delivery-app.png": "/static/media/drone-delivery-app.da96e355848a23c3eaa3.png",
@@ -74,11 +74,11 @@
     "static/media/cms-eer-diagram.png": "/static/media/cms-eer-diagram.9061a906a4e0bdcf66ad.png",
     "index.html": "/index.html",
     "main.34a54674.css.map": "/static/css/main.34a54674.css.map",
-    "main.b5be4317.js.map": "/static/js/main.b5be4317.js.map",
+    "main.d00b661f.js.map": "/static/js/main.d00b661f.js.map",
     "787.fec52a11.chunk.js.map": "/static/js/787.fec52a11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34a54674.css",
-    "static/js/main.b5be4317.js"
+    "static/js/main.d00b661f.js"
   ]
 }
