@@ -42,7 +42,6 @@ const Modal = ({ id, type, image, title, description, repoURL, demoURL, caseStud
                 <div className="modal-footer">
                     {repoURL ? <a href={repoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Details </a> : ""}
                     {demoURL ? <a href={demoURL} target="_blank" rel="noopener noreferrer" className="modal-link"> Demo </a> : ""}
-                    {/* {type === "case-study" && caseStudyContent ? <Link to={`/case-study/${id}`} target="_blank" rel="noopener noreferrer" className="modal-link"> Read Case Study </Link> : ""} */}
                     {type === "case-study" && caseStudyContent ? <Link to={`/case-study/${id}`} className="modal-link"> Read Case Study </Link> : ""}
                     <button onClick={onClose} className="modal-button"> Close </button>
                 </div>

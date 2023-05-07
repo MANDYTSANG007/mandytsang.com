@@ -6,7 +6,6 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 
 const Card = ({ id, type, title, description, repoURL, demoURL, caseStudyContent, image, myRoles, tool, techStack }) => {
-    // const Card = ({ id, title, description, repoURL, demoURL, caseStudyURL, image, myRoles, tool, techStack }) => {
     const [show, setShow] = useState(false);
 
     return (
@@ -19,7 +18,6 @@ const Card = ({ id, type, title, description, repoURL, demoURL, caseStudyContent
                 description={description}
                 repoURL={repoURL}
                 demoURL={demoURL}
-                // caseStudyURL={caseStudyURL}
                 caseStudyContent={{caseStudyContent}}
                 myRoles={myRoles}
                 tool={tool}

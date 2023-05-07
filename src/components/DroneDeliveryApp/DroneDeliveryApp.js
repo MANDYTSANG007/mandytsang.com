@@ -54,7 +54,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/design-process.png`)}
                 alt="Design process"
-                className="design-process-image"
+                className="design-process-image responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -78,7 +78,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/drone-user-journey.png`)}
                 alt="Edward's user journey map"
-                className="user-journey-image"
+                className="user-journey-image responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -89,7 +89,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/drone-sitemap.png`)}
                 alt="Sitemap"
-                className="drone-sitemap"
+                className="drone-sitemap responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -99,7 +99,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/drone-paper-wireframes.png`)}
                 alt="Paper wireframes"
-                className="drone-paper-wireframes"
+                className="drone-paper-wireframes responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -110,7 +110,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/drone-digital-wireframe.png`)}
                 alt="Digital wireframe design"
-                className="digital-wireframe-design"
+                className="digital-wireframe-design responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -118,16 +118,18 @@ const DroneDeliveryApp = () => {
                     <p>Because Speed Drone Service’s customers access the site on a variety of different devices, I created a responsive design for different screen sizes to make sure the site would be fully responsive.</p>
                 </div>
             </div>
-            <img
-                src={require(`../../assets/project-images/wireframe-screen-size-variation.png`)}
-                alt="A paper wireframe with a responsive design for desktop and mobile."
-                className="wireframe-screen-size-variation"
-            />
-            <img
-                src={require(`../../assets/project-images/drone-digital-screen-size-variation.png`)}
-                alt="A digital wireframe with a responsive design for desktop and mobile."
-                className="wireframe-screen-size-variation"
-            />
+            <div>
+                <img
+                    src={require(`../../assets/project-images/wireframe-screen-size-variation.png`)}
+                    alt="A paper wireframe with a responsive design for desktop and mobile."
+                    className="wireframe-screen-size-variation "
+                />
+                <img
+                    src={require(`../../assets/project-images/drone-digital-screen-size-variation.png`)}
+                    alt="A digital wireframe with a responsive design for desktop and mobile."
+                    className="wireframe-screen-size-variation"
+                />
+            </div>
             <div className="project-header">
                 <div className="section">
                     <h2>Low-fidelity Prototype</h2>
@@ -146,7 +148,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/drone-usability-parameters.png`)}
                 alt="Usability study parameters"
-                className="drone-usability-parameters"
+                className="drone-usability-parameters responsive-width"
             />
             <img
                 src={require(`../../assets/project-images/drone-usability-findings.png`)}
@@ -162,7 +164,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/drone-mockup.png`)}
                 alt="Mockup displays design before an usability study and after an useability study."
-                className="drone-mockup"
+                className="drone-mockup responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -172,7 +174,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/drone-design-system.png`)}
                 alt="Design System"
-                className="design-system"
+                className="design-system responsive-width"
             />
             <div className="project-header">
                 <div className="section">
@@ -183,7 +185,7 @@ const DroneDeliveryApp = () => {
             <img
                 src={require(`../../assets/project-images/drone-high-fidelity.png`)}
                 alt="High-fidelity prototype"
-                className="hi-fi"
+                className="drone-hi-fi responsive-width "
             />
             <div className="project-header">
                 <div className="section">
@@ -203,13 +205,13 @@ const DroneDeliveryApp = () => {
             </div>
             <div className="project-header">
                 <div className="section">
-                    <h2>Next Steps</h2>                   
+                    <h2>Next Steps</h2>
                 </div>
             </div>
             <img
                 src={require(`../../assets/project-images/drone-next-steps.png`)}
                 alt="Next steps"
-                className="next-steps"
+                className="drone-next-steps responsive-width"
             />
         </div>
 

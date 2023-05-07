@@ -122,9 +122,25 @@
     padding: 1%;
 }
 
-
+/* For mobile devices */
 @media only screen and (max-width: 600px) {
     .modal-content, .modal-image {
-        width: 300px;
+        width: 260px;
+    }
+
+    .modal-body {
+        font-size: 12px;
+    }
+}
+
+/* For tablets and smaller laptops with screens between 600px and 1024px */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .modal-content, .modal-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .modal-body {
+        font-size: 16px;
     }
 }
